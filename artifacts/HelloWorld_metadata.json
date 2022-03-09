@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_username",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "sayHelloWorld",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_username",
+						"type": "string"
+					}
+				],
+				"name": "setUsername",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"HelloWorldContract.sol": "HelloWorld"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"HelloWorldContract.sol": {
+			"keccak256": "0xa6f82d81fab88739ad84cf6f55569d25fbce53085f42e1e2b674b12ff98b89c9",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://c053ac3d7fe4cab26ba3e0e61943f9c2e41a3e8cb3429655a039ac28e4358218",
+				"dweb:/ipfs/QmUzkjBVxs1yHoVmqrzummiTXrqu8uaStZ7a6YTuekCLSJ"
+			]
+		}
+	},
+	"version": 1
+}
